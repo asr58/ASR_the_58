@@ -305,7 +305,8 @@ iframe {
 }
 .home-content {
   text-align: center;
-  margin-top: 8%;
+  margin-top: 7%;
+  /* margin-top: 8%; */
   /* background: rgba(255,255,255,.5); */
 }
 .home-content p {
@@ -786,6 +787,7 @@ footer p {
 }
 /* モバイル版
 ------------------------------- */
+/* iPad Pro */
 @media (max-width: 600px) {
   body {
     background-position: left top;
@@ -1007,9 +1009,13 @@ footer p {
   }
 }
 
+/* iPad */
 @media (max-width: 837px) {
   .home-content {
     margin-top: 40%;
+  }
+  .home-content p{
+    margin-bottom: 20px;
   }
   .page-title {
     font-size: 3rem;
