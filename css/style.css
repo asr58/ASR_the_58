@@ -116,6 +116,14 @@ margin-bottom: 26px;
 .text-center {
   text-align: center;
 }
+.text-left{
+  display: inline-block;
+  text-align: left;
+  list-style-type: none;
+}
+.text-size-1{
+  font-size: 1.4rem;
+}
 .sp {
   display: none;
 }
@@ -496,6 +504,12 @@ aside p {
 }
 .item-2 img {
   vertical-align: bottom;
+}
+.item-4 {
+  border: solid silver;
+  background: darkslategray;
+  color: khaki;
+  position: relative;
 }
 .history-border {
   border: slategrey solid;
